@@ -104,8 +104,6 @@ export default function SurveyManagementPage() {
     if (!survey) {
         return (
             <>
-                <Navbar />
-                <PageTransition>
                     <main className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-12">
                         <div className="container mx-auto px-4 text-center">
                             <p className="text-muted-foreground">Survey not found</p>
@@ -114,7 +112,6 @@ export default function SurveyManagementPage() {
                             </Button>
                         </div>
                     </main>
-                </PageTransition>
             </>
         );
     }
