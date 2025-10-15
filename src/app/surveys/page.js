@@ -45,8 +45,6 @@ export default function SurveysPage() {
 
   return (
     <>
-      <Navbar />
-      <PageTransition>
         <main className="min-h-screen bg-gradient-to-b from-background to-muted/20 py-12">
           <div className="container mx-auto px-4">
             <motion.div
@@ -152,7 +150,6 @@ export default function SurveysPage() {
             )}
           </div>
         </main>
-      </PageTransition>
     </>
   );
 }
